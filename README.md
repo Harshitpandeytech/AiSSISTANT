@@ -35,7 +35,6 @@ Built with **Node.js + Express**, providing core functionality:
 Developed in **React + TypeScript**, offering a fast and clean interface:
 
 - Stream Chat React components  
-- Tailwind CSS and shadcn/ui for modern styling  
 - Vite for fast builds  
 - Writing prompt tools and AI interaction UI  
 
