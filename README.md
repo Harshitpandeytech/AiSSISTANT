@@ -1,4 +1,4 @@
-# 🚀 **AiSSISTANT**
+# **AiSSISTANT**
 
 AiSSISTANT is an AI-powered chat application that brings together **real-time messaging**, **intelligent writing assistance**, and **live web search**.  
 Built using **Stream Chat**, **OpenAI**, and a modern full-stack architecture.
