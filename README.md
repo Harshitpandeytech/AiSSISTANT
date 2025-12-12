@@ -3,21 +3,21 @@
 AiSSISTANT is an AI-powered chat application that brings together real-time messaging, intelligent writing assistance, and live web search.
 Built using Stream Chat, OpenAI, and a modern full-stack architecture.
 
-Features
+✨ Features
 
-Real-time chat with Stream Chat
+⚡ Real-time chat powered by Stream Chat
 
-AI writing and content generation using OpenAI
+🧠 AI writing & content generation using OpenAI
 
-Web search capability via Tavily API
+🔍 Live web search via Tavily API
 
-Responsive React UI with light/dark themes
+🎨 Responsive React UI with light/dark themes
 
-Categorized writing prompts
+🗂️ Categorized writing prompts
 
-Dynamic AI agent creation per channel
+🤖 Dynamic AI agent creation per channel
 
-Secure JWT authentication
+🔐 Secure JWT authentication
 
 Architecture Overview
 Backend – 
