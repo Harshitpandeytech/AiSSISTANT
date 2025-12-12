@@ -1,105 +1,82 @@
-🚀 AiSSISTANT
+# 🚀 **AiSSISTANT**
 
-AiSSISTANT is an AI-powered chat application that brings together real-time messaging, intelligent writing assistance, and live web search.
-Built using Stream Chat, OpenAI, and a modern full-stack architecture.
+AiSSISTANT is an AI-powered chat application that brings together **real-time messaging**, **intelligent writing assistance**, and **live web search**.  
+Built using **Stream Chat**, **OpenAI**, and a modern full-stack architecture.
 
-✨ Features
+---
 
-⚡ Real-time chat powered by Stream Chat
+## ✨ **Features**
 
-🧠 AI writing & content generation using OpenAI
+- ⚡ **Real-time chat** powered by Stream Chat  
+- 🧠 **AI writing & content generation** using OpenAI  
+- 🔍 **Live web search** via Tavily API  
+- 🎨 **Responsive React UI** with light/dark themes  
+- 🗂️ **Categorized writing prompts**  
+- 🤖 **Dynamic AI agent creation** per channel  
+- 🔐 **Secure JWT authentication**  
 
-🔍 Live web search via Tavily API
+---
 
-🎨 Responsive React UI with light/dark themes
+## 🏗️ **Architecture Overview**
 
-🗂️ Categorized writing prompts
+### 🔧 **Backend**
+Built with **Node.js + Express**, providing core functionality:
 
-🤖 Dynamic AI agent creation per channel
+- Stream Chat server integration  
+- OpenAI-powered AI response engine  
+- Tavily search integration  
+- AI agent lifecycle management  
+- JWT authentication system  
+- Input validation & CORS configuration  
 
-🔐 Secure JWT authentication
+---
 
-Architecture Overview
-Backend – 
+### 🎨 **Frontend**
+Developed in **React + TypeScript**, offering a fast and clean interface:
 
-Node.js + Express server
+- Stream Chat React components  
+- Tailwind CSS and shadcn/ui for modern styling  
+- Vite for fast builds  
+- Writing prompt tools and AI interaction UI  
 
-Stream Chat server integration
+---
 
-OpenAI-based AI response engine
+## 🤖 **AI Agent System**
 
-Tavily web search integration
+- Agents are created **per channel** when requested  
+- Each agent initializes with **OpenAI** + **web search support**  
+- Maintains conversation context  
+- Automatically performs web searches when needed  
+- Agents are cleaned up after inactivity  
 
-Agent lifecycle management
+---
 
-JWT authentication
+## 🔐 **Security**
 
-Input validation and CORS configuration
+- JWT-based authentication  
+- Environment variable protection  
+- Token expiration & refresh handling  
+- Server-side input validation  
 
-Frontend – 
+---
 
-React + TypeScript
+## 🛠️ **Tech Stack**
 
-Stream Chat React components
+### **Backend**
+- Node.js  
+- Express  
+- Stream Chat  
+- OpenAI  
+- Tavily API  
+- Axios  
+- TypeScript  
 
-Vite build system
-
-Writing prompt interface and AI tools
-
-AI Agent System
-
-Agents are created per chat channel when requested
-
-Each agent initializes an OpenAI assistant with search support
-
-Handles user messages and maintains context
-
-Automatically performs web searches when needed
-
-Agents are cleaned up after inactivity
-
-Security
-
-JWT-based authentication
-
-Environment variable–based secrets
-
-Token expiration and refresh handling
-
-Server-side request validation
-
-Tech Stack
-Backend
-
-Node.js
-
-Express
-
-Stream Chat
-
-OpenAI
-
-Tavily API
-
-Axios
-
-TypeScript
-
-Frontend
-
-React
-
-TypeScript
-
-Vite
-
-Stream Chat React
-
-Tailwind CSS
-
-shadcn/ui
-
-React Router
-
-React Hook Form
-
+### **Frontend**
+- React  
+- TypeScript  
+- Vite  
+- Stream Chat React  
+- Tailwind CSS  
+- shadcn/ui  
+- React Router  
+- React Hook Form  
